@@ -83,9 +83,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/lge/v10/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/lge/v10/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
-    vendor/lge/v10/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/lge/v10/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
+    vendor/lge/v10/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/lge/v10/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
+    vendor/lge/v10/proprietary/lib/libbluetoothdrv.so:system/lib/libbluetoothdrv.so \
     vendor/lge/v10/proprietary/lib/libbwc.so:system/lib/libbwc.so \
     vendor/lge/v10/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
     vendor/lge/v10/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
@@ -113,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
     vendor/lge/v10/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/lge/v10/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
+    vendor/lge/v10/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
     vendor/lge/v10/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/lge/v10/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/lge/v10/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
@@ -124,15 +126,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10/proprietary/lib/libmtk_mali_user.so:system/lib/libmtk_mali_user.so \
     vendor/lge/v10/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
     vendor/lge/v10/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
+    vendor/lge/v10/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/lge/v10/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
+    vendor/lge/v10/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/lge/v10/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/lge/v10/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/lge/v10/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
+    vendor/lge/v10/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
+    vendor/lge/v10/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
     vendor/lge/v10/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/lge/v10/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/lge/v10/proprietary/lib/libssladp.so:system/lib/libssladp.so \
     vendor/lge/v10/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/lge/v10/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/lge/v10/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/lge/v10/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
     vendor/lge/v10/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/lge/v10/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
