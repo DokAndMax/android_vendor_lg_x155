@@ -12,4 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/lge/v10/v10-vendor-blobs.mk)
+$(call inherit-product, vendor/lg/my90ds/my90ds-vendor-blobs.mk)
